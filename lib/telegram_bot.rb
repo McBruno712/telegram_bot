@@ -19,6 +19,7 @@ require "telegram_bot/api_response"
 require "telegram_bot/bot"
 require "telegram_bot/client"
 
+require "telegram_bot/response_error"
 
 module TelegramBot
   def self.new(opts)
